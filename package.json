@@ -1,0 +1,24 @@
+{
+  "name": "abort-node-xmlhttprequest",
+  "description": "POC abort hang",
+  "version": "0.0.1",
+  "homepage": "https://github.com/azu/abort-node-xmlhttprequest/",
+  "repository": {
+    "url": "git://github.com/azu/abort-node-xmlhttprequest.git"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test/*.js"
+  },
+  "directories": {
+    "test": "test/"
+  },
+  "author": "azu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/azu/abort-node-xmlhttprequest/issues"
+  },
+  "dependencies": {
+    "w3c-xmlhttprequest": "^1.1.0"
+  }
+}
